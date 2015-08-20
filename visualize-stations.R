@@ -9,5 +9,10 @@ MANHATTAN = ggmap(get_googlemap(center=usa_center, scale=1, zoom=12), extent="no
 MANHATTAN <- MANHATTAN + 
   geom_point(aes(x=lon, y=lat), data=data, col="red", alpha=.5, size=3)
 print(MANHATTAN)
-print("---- done -------")
+
+png(filename="manhattan.png",width=1000,height=1000)
+plot(MANHATTAN)
+dev.off()
+
+
 
