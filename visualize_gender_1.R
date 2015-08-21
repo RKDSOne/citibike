@@ -37,7 +37,7 @@ MANHATTAN <- MANHATTAN +
 print(MANHATTAN)
 
 
-png(filename="gender_1.png",width=1000,height=1000)
+png(filename="output/gender_1.png",width=1000,height=1000)
 plot(MANHATTAN)
 dev.off()
 
