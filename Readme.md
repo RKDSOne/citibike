@@ -1,5 +1,2 @@
-##### Requirements
-
-```
-brew install jq
-```
+# citibike
+Data Analysis Of Citibike Data
