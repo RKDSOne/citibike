@@ -12,8 +12,8 @@ brew install jq
 
 ![alt tag](https://github.com/josephmisiti/citibike/blob/master/start_station_popularity.png)
 
-![alt tag](https://github.com/josephmisiti/citibike/blob/master/gender_0_.png)
+![alt tag](https://github.com/josephmisiti/citibike/blob/master/gender_0.png)
 
-![alt tag](https://github.com/josephmisiti/citibike/blob/master/gender_1_.png)
+![alt tag](https://github.com/josephmisiti/citibike/blob/master/gender_1.png)
 
 ![alt tag](https://github.com/josephmisiti/citibike/blob/master/gender_2.png)
