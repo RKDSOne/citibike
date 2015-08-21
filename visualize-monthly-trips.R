@@ -35,7 +35,7 @@ MANHATTAN <- MANHATTAN +
 print(MANHATTAN)
 
 
-png(filename="start_station_popularity.png",width=1000,height=1000)
+png(filename="output/start_station_popularity.png",width=1000,height=1000)
 plot(MANHATTAN)
 dev.off()
 
