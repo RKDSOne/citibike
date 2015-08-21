@@ -33,7 +33,9 @@ trips.sum$size <- scaling_factor*trips.sum$count / max(trips.sum$count)
 LES = as.numeric(geocode("Lower East Side"))
 MANHATTAN = ggmap(get_googlemap(center=LES, scale=1, zoom=12), extent="normal")
 MANHATTAN <- MANHATTAN + 
-  geom_point(aes(x=lon, y=lat), data=trips.sum, col="blue", alpha=.5, size=trips.sum$size)
+  geom_point(aes(x=lon, y=lat), data=trips.sum, col="blue", alpha=.5, size=trips.sum$size) +
+  ggtitle("Gender 1") + 
+  theme(plot.title=element_text(family="Times", face="bold", size=40))
 print(MANHATTAN)
 
 

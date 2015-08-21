@@ -32,9 +32,9 @@ LES = as.numeric(geocode("Lower East Side"))
 MANHATTAN = ggmap(get_googlemap(center=LES, scale=1, zoom=12), extent="normal")
 MANHATTAN <- MANHATTAN + 
   geom_point(aes(x=lon, y=lat), data=trips.sum, col="red", alpha=.5, size=trips.sum$size) +
-  ggtitle("Citi Bike Stations By Starting Point Popularity (July 2015)")
+  ggtitle("Citi Bike Stations By Starting Point Popularity (July 2015)") + 
+  theme(plot.title=element_text(family="Times", face="bold", size=40))
 print(MANHATTAN)
-
 
 png(filename="output/start_station_popularity.png",width=1000,height=1000)
 plot(MANHATTAN)
